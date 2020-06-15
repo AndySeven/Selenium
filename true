@@ -1,0 +1,245 @@
+[1590357607.913][INFO]: Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 42124
+[1590357607.913][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590357684.173][INFO]: [8cc562819447cf4d21cfbb570fbf962c] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1590357684.175][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1590357684.175][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1590357684.176][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension=/var/folders/jw/sqbsjg513gsd07xt2s2l_l640000gn/T/.com.google.Chrome.3PExaO/internal --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/jw/sqbsjg513gsd07xt2s2l_l640000gn/T/.com.google.Chrome.QiwBUk data:,
+[1590357685.018][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1590357685.049][INFO]: [8cc562819447cf4d21cfbb570fbf962c] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "81.0.4044.138",
+      "chrome": {
+         "chromedriverVersion": "81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776})",
+         "userDataDir": "/var/folders/jw/sqbsjg513gsd07xt2s2l_l640000gn/T/.com.google.Chrome.QiwBUk"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50418"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "8cc562819447cf4d21cfbb570fbf962c"
+}
+[1590357685.106][INFO]: [8cc562819447cf4d21cfbb570fbf962c] COMMAND MaximizeWindow {
+
+}
+[1590357685.106][INFO]: Waiting for pending navigations...
+[1590357685.106][INFO]: Done waiting for pending navigations. Status: ok
+[1590357685.107][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1590357685.237][INFO]: Waiting for pending navigations...
+[1590357685.238][INFO]: Done waiting for pending navigations. Status: ok
+[1590357685.238][INFO]: [8cc562819447cf4d21cfbb570fbf962c] RESPONSE MaximizeWindow {
+   "height": 937,
+   "width": 1536,
+   "x": 0,
+   "y": 23
+}
+[1590357685.242][INFO]: [8cc562819447cf4d21cfbb570fbf962c] COMMAND Navigate {
+   "url": "http://166.62.36.207/humanresources/symfony/web/index.php/auth/login"
+}
+[1590357685.242][INFO]: Waiting for pending navigations...
+[1590357685.242][INFO]: Done waiting for pending navigations. Status: ok
+[1590357685.644][INFO]: Waiting for pending navigations...
+[1590357685.748][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590357685.850][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590357685.952][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590357686.054][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590357686.156][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590357686.258][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590357686.360][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590357686.463][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590357686.566][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590357686.668][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590357686.770][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590357686.873][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590357687.046][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590357687.149][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590357687.252][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590357687.260][INFO]: Done waiting for pending navigations. Status: ok
+[1590357687.261][INFO]: [8cc562819447cf4d21cfbb570fbf962c] RESPONSE Navigate
+[1590357687.265][INFO]: [8cc562819447cf4d21cfbb570fbf962c] COMMAND Navigate {
+   "url": "http://www.amazon.com"
+}
+[1590357687.265][INFO]: Waiting for pending navigations...
+[1590357687.266][INFO]: Done waiting for pending navigations. Status: ok
+[1590357687.472][INFO]: Waiting for pending navigations...
+[1590357687.591][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590357688.204][INFO]: Done waiting for pending navigations. Status: ok
+[1590357688.205][INFO]: [8cc562819447cf4d21cfbb570fbf962c] RESPONSE Navigate
+[1590357688.211][INFO]: [8cc562819447cf4d21cfbb570fbf962c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@id='nav-link-accountList']"
+}
+[1590357688.211][INFO]: Waiting for pending navigations...
+[1590357688.251][INFO]: Done waiting for pending navigations. Status: ok
+[1590357688.271][INFO]: Waiting for pending navigations...
+[1590357688.285][INFO]: Done waiting for pending navigations. Status: ok
+[1590357688.285][INFO]: [8cc562819447cf4d21cfbb570fbf962c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "50f4c6a7-f807-4e37-8191-087eac8ac1fc"
+}
+[1590357692.221][INFO]: [8cc562819447cf4d21cfbb570fbf962c] COMMAND PerformActions {
+   "actions": [ {
+      "actions": [ {
+         "duration": 100,
+         "origin": {
+            "ELEMENT": "50f4c6a7-f807-4e37-8191-087eac8ac1fc",
+            "element-6066-11e4-a52e-4f735466cecf": "50f4c6a7-f807-4e37-8191-087eac8ac1fc"
+         },
+         "type": "pointerMove",
+         "x": 0,
+         "y": 0
+      } ],
+      "id": "default mouse",
+      "parameters": {
+         "pointerType": "mouse"
+      },
+      "type": "pointer"
+   } ]
+}
+[1590357692.223][INFO]: Waiting for pending navigations...
+[1590357692.224][INFO]: Done waiting for pending navigations. Status: ok
+[1590357692.343][INFO]: Waiting for pending navigations...
+[1590357692.344][INFO]: Done waiting for pending navigations. Status: ok
+[1590357692.344][INFO]: [8cc562819447cf4d21cfbb570fbf962c] RESPONSE PerformActions
+[1590357694.752][INFO]: [8cc562819447cf4d21cfbb570fbf962c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='nav-flyout-ya-newCust']"
+}
+[1590357694.753][INFO]: Waiting for pending navigations...
+[1590357694.753][INFO]: Done waiting for pending navigations. Status: ok
+[1590357694.760][INFO]: Waiting for pending navigations...
+[1590357694.761][INFO]: Done waiting for pending navigations. Status: ok
+[1590357694.761][INFO]: [8cc562819447cf4d21cfbb570fbf962c] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "030efb52-8b1f-4083-a60f-adbc9d69cf84"
+}
+[1590357708.459][INFO]: [8cc562819447cf4d21cfbb570fbf962c] COMMAND GetElementText {
+   "id": "030efb52-8b1f-4083-a60f-adbc9d69cf84"
+}
+[1590357708.459][INFO]: Waiting for pending navigations...
+[1590357708.460][INFO]: Done waiting for pending navigations. Status: ok
+[1590357708.467][INFO]: Waiting for pending navigations...
+[1590357708.468][INFO]: Done waiting for pending navigations. Status: ok
+[1590357708.468][INFO]: [8cc562819447cf4d21cfbb570fbf962c] RESPONSE GetElementText "New customer? Start here."
+[1590357714.354][INFO]: [8cc562819447cf4d21cfbb570fbf962c] COMMAND PerformActions {
+   "actions": [ {
+      "actions": [ {
+         "duration": 100,
+         "origin": {
+            "ELEMENT": "030efb52-8b1f-4083-a60f-adbc9d69cf84",
+            "element-6066-11e4-a52e-4f735466cecf": "030efb52-8b1f-4083-a60f-adbc9d69cf84"
+         },
+         "type": "pointerMove",
+         "x": 0,
+         "y": 0
+      }, {
+         "button": 2,
+         "type": "pointerDown"
+      }, {
+         "button": 2,
+         "type": "pointerUp"
+      } ],
+      "id": "default mouse",
+      "parameters": {
+         "pointerType": "mouse"
+      },
+      "type": "pointer"
+   } ]
+}
+[1590357714.354][INFO]: Waiting for pending navigations...
+[1590357714.354][INFO]: Done waiting for pending navigations. Status: ok
+[1590357714.578][INFO]: Waiting for pending navigations...
+[1590357714.581][INFO]: Done waiting for pending navigations. Status: ok
+[1590357714.581][INFO]: [8cc562819447cf4d21cfbb570fbf962c] RESPONSE PerformActions

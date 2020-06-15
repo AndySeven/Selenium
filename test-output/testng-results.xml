@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33438" started-at="2020-05-22T17:02:27 EDT" finished-at="2020-05-22T17:03:00 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33438" started-at="2020-05-22T17:02:27 EDT" finished-at="2020-05-22T17:03:00 EDT">
+      <class name="com.syntax.practices.TestLogin">
+        <test-method status="PASS" signature="TestRobo()[pri:0, instance:com.syntax.practices.TestLogin@51cdd8a]" name="TestRobo" duration-ms="33413" started-at="2020-05-22T17:02:27 EDT" finished-at="2020-05-22T17:03:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRobo -->
+      </class> <!-- com.syntax.practices.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
